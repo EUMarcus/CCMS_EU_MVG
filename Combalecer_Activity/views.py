@@ -23,3 +23,17 @@ def ccms_objectives(request):
     </ol>"""
 
     return HttpResponse(msg)
+
+def opening(request):
+    msg = """<h3>CSIPT Activity</h3>
+    <p>URLs for this Activity are:</p>
+    <ol>
+    <li>admin/</li>
+    <li>ccms_mission/</li>
+    <li>ccms_vision/</li>
+    <li>ccms_objectives/</li>
+    </ol>
+    
+     <p>Thank you!</p>"""
+
+    return HttpResponse(msg)

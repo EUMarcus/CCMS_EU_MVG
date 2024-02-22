@@ -23,4 +23,5 @@ urlpatterns = [
     path('ccms_mission/', views.ccms_mission),
     path('ccms_vision/', views.ccms_vision),
     path('ccms_objectives/', views.ccms_objectives),
+    path('', views.opening),
 ]
